@@ -12,7 +12,7 @@ export default {
   component: <%= h.changeCase.pascal(component_name) %>,
 } as ComponentMeta<typeof <%= h.changeCase.pascal(component_name) %>>;
 
-const Template: ComponentStory<typeof <%= h.changeCase.pascal(component_name) %>> = () => <<%= h.changeCase.pascal(component_name) %> />;
+const Template: ComponentStory<typeof <%= h.changeCase.pascal(component_name) %>> = (args) => <<%= h.changeCase.pascal(component_name) %> {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {};
