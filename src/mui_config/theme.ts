@@ -18,7 +18,7 @@ const theme = createTheme({
     h1: {
       fontFamily: '"Noto Sans JP", sans-serif',
       fontWeight: 900,
-      fontSize: "1.25rem",
+      fontSize: "1.2rem",
     },
     button: {
       fontFamily: '"Noto Sans JP", sans-serif',
