@@ -1,15 +1,12 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
-import { Button, Typography } from '@mui/material';
+import styles from '../styles/index.module.css';
+import { Heading } from '../components/ui/typography/Heading';
 
 const Home: NextPage = () => {
   return (
-    <>
-      <Button variant='contained'>おすすめユーザー</Button>
-      <Typography variant='h1'> </Typography>
-      <Typography variant='h2'>おすすめユーザー</Typography>
-    </>
+    <div className={styles.root}>
+      <Heading>おすすめユーザー</Heading>
+    </div>
   );
 };
 
