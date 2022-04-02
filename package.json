@@ -9,7 +9,8 @@
     "lint": "next lint",
     "newfile": "hygen generator component",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "format": "prettier --write --ignore-path .gitignore \"./**/*.{js,jsx,ts,tsx,json,css}\""
   },
   "dependencies": {
     "@emotion/react": "^11.8.2",

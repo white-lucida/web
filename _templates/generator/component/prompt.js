@@ -1,4 +1,3 @@
-
 module.exports = [
   {
     type: 'select',
@@ -9,7 +8,7 @@ module.exports = [
   {
     type: 'input',
     name: 'subdirectory',
-    message: "サブディレクトリ名を入力してください。",
+    message: 'サブディレクトリ名を入力してください。',
     validate: (input) => input !== '',
   },
   {
