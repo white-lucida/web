@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
           <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons' />
           <link
             rel='stylesheet'
-            href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap&text=おすすめユーザー'
+            href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap'
           />
 
           {(this.props as any).emotionStyleTags}
