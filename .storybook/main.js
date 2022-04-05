@@ -1,5 +1,14 @@
 module.exports = {
-  typescript: { reactDocgen: false },
+  typescript: {
+    // .storybook/main.js
+    check: false,
+    checkOptions: {},
+    reactDocgen: 'react-docgen-typescript',
+    reactDocgenTypescriptOptions: {
+      shouldExtractLiteralValuesFromEnum: true,
+      propFilter: (prop) => (prop.parent ? !/node_modules/.test(prop.parent.fileName) : true),
+    },
+  },
   stories: ['../src/**/*.stories.@(tsx|mdx)'],
   addons: [
     '@storybook/addon-links',
